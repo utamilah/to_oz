@@ -1,5 +1,8 @@
 ## To Oz?  To Oz!
 
+Follow the steps below. Copy and paste your terminal commands into a github issue
+on this repository, like this one: https://github.com/ga-dc/to_oz/issues/1 
+
 [Queue the music](http://thewizardofoz.warnerbros.com/)
 
 1. Create directory "House"
@@ -10,25 +13,6 @@
   - Wicked Witch of the East
   - Good Witch of the South
   - Wicked Witch of the West
-
----
-
-# Show and Tell
-
-Note:
-
-1. Create directory "House"
-1. Add files: "Dorothy" and "Toto" to "House"
-1. Create directory "Oz"
-1. Add files for the 4 Witches to "Oz":
-  - Good Witch of the North
-  - Wicked Witch of the East
-  - Good Witch of the South
-  - Wicked Witch of the West
-1. Move "House" to "Oz"
-
-Note
-Return to lesson for "Dangerous Commands".
 
 ---
 
@@ -53,11 +37,16 @@ Return to lesson for "Dangerous Commands".
 
 1. Add "Flying Monkeys" to "Oz"
 1. Remove "Wicked Witch of the West"
-1. Give the gifts
+1. Give the gifts*
     1. Give Scarecrow a diploma
     1. Give Tin Man a heart shaped watch
     1. Give Lion a medal
 
+*: to give gifts, you can redirect the ouput of the `echo` command:
+
+```
+$ echo "a diploma" >> Oz/Scarecrow
+```
 ---
 
 ![](http://wendyswizardofoz.com/5ozpeop1.jpg)
