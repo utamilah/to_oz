@@ -1,0 +1,104 @@
+jesse@ga:~/wdi/exercises/to_oz $ mkdir House
+jesse@ga:~/wdi/exercises/to_oz $ cd House
+jesse@ga:~/wdi/exercises/to_oz/House $ touch Dorothy Toto
+jesse@ga:~/wdi/exercises/to_oz/House $ ls
+total 0
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:26 ./
+drwxr-xr-x  3 jesse  staff  102 Jan 29 16:26 ../
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:26 Dorothy
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:26 Toto
+jesse@ga:~/wdi/exercises/to_oz/House $ cd ..
+jesse@ga:~/wdi/exercises/to_oz $ mkdir Oz
+jesse@ga:~/wdi/exercises/to_oz $ cd Oz
+jesse@ga:~/wdi/exercises/to_oz/Oz $ touch Good\ Witch\ of\ the\ North
+jesse@ga:~/wdi/exercises/to_oz/Oz $ touch Wicked\ Witch\ of\ the\ East
+jesse@ga:~/wdi/exercises/to_oz/Oz $ touch Good\ Witch\ of\ the\ South
+jesse@ga:~/wdi/exercises/to_oz/Oz $ touch Wicked\ Witch\ of\ the\ West
+jesse@ga:~/wdi/exercises/to_oz/Oz $ ls
+total 0
+drwxr-xr-x  6 jesse  staff  204 Jan 29 16:27 ./
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:27 ../
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Good Witch of the North
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Good Witch of the South
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Wicked Witch of the East
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Wicked Witch of the West
+jesse@ga:~/wdi/exercises/to_oz/Oz $ rm Wicked\ Witch\ of\ the\ East
+jesse@ga:~/wdi/exercises/to_oz/Oz $ ls
+total 0
+drwxr-xr-x  5 jesse  staff  170 Jan 29 16:27 ./
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:27 ../
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Good Witch of the North
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Good Witch of the South
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Wicked Witch of the West
+jesse@ga:~/wdi/exercises/to_oz/Oz $ mv Do
+jesse@ga:~/wdi/exercises/to_oz/Oz $ cd ..
+jesse@ga:~/wdi/exercises/to_oz $ ls
+total 0
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:27 ./
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:19 ../
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:26 House/
+drwxr-xr-x  5 jesse  staff  170 Jan 29 16:27 Oz/
+jesse@ga:~/wdi/exercises/to_oz $ mv House/Dorothy Oz
+jesse@ga:~/wdi/exercises/to_oz $ ls
+total 0
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:27 ./
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:19 ../
+drwxr-xr-x  3 jesse  staff  102 Jan 29 16:28 House/
+drwxr-xr-x  6 jesse  staff  204 Jan 29 16:28 Oz/
+jesse@ga:~/wdi/exercises/to_oz $ ls Oz
+total 0
+drwxr-xr-x  6 jesse  staff  204 Jan 29 16:28 ./
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:27 ../
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:26 Dorothy
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Good Witch of the North
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Good Witch of the South
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Wicked Witch of the West
+jesse@ga:~/wdi/exercises/to_oz $
+jesse@ga:~/wdi/exercises/to_oz $ touch Scarecrow Tin\ Man Cowardly\ Lion
+jesse@ga:~/wdi/exercises/to_oz $ mkdir Emerald\ City
+jesse@ga:~/wdi/exercises/to_oz $ mv Scarecrow Tin\ Man Cowardly\ Lion Emerald\ City
+jesse@ga:~/wdi/exercises/to_oz $ tree .
+.
+├── Emerald\ City
+│   ├── Cowardly\ Lion
+│   ├── Scarecrow
+│   └── Tin\ Man
+├── House
+│   └── Toto
+└── Oz
+    ├── Dorothy
+    ├── Good\ Witch\ of\ the\ North
+    ├── Good\ Witch\ of\ the\ South
+    └── Wicked\ Witch\ of\ the\ West
+
+3 directories, 8 files
+jesse@ga:~/wdi/exercises/to_oz $ cd Oz
+jesse@ga:~/wdi/exercises/to_oz/Oz $ ls
+total 0
+drwxr-xr-x  6 jesse  staff  204 Jan 29 16:28 ./
+drwxr-xr-x  5 jesse  staff  170 Jan 29 16:28 ../
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:26 Dorothy
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Good Witch of the North
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Good Witch of the South
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:27 Wicked Witch of the West
+jesse@ga:~/wdi/exercises/to_oz/Oz $ touch Flying\ Monkeys
+jesse@ga:~/wdi/exercises/to_oz/Oz $ rm Wicked\ Witch\ of\ the\ West
+jesse@ga:~/wdi/exercises/to_oz/Oz $ cd ..
+jesse@ga:~/wdi/exercises/to_oz $ ls
+total 0
+drwxr-xr-x  5 jesse  staff  170 Jan 29 16:28 ./
+drwxr-xr-x  4 jesse  staff  136 Jan 29 16:19 ../
+drwxr-xr-x  5 jesse  staff  170 Jan 29 16:28 Emerald City/
+drwxr-xr-x  3 jesse  staff  102 Jan 29 16:28 House/
+drwxr-xr-x  6 jesse  staff  204 Jan 29 16:29 Oz/
+jesse@ga:~/wdi/exercises/to_oz $ cd Emerald\ City
+jesse@ga:~/wdi/exercises/to_oz/Emerald City $ ls
+total 0
+drwxr-xr-x  5 jesse  staff  170 Jan 29 16:28 ./
+drwxr-xr-x  5 jesse  staff  170 Jan 29 16:28 ../
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:28 Cowardly Lion
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:28 Scarecrow
+-rw-r--r--  1 jesse  staff    0 Jan 29 16:28 Tin Man
+jesse@ga:~/wdi/exercises/to_oz/Emerald City $ echo "a diploma" >> Scarecrow
+jesse@ga:~/wdi/exercises/to_oz/Emerald City $ echo "a heart shaped watch" >> Tin\ Man
+jesse@ga:~/wdi/exercises/to_oz/Emerald City $ echo "a medal" >> Cowardly\ Lion
