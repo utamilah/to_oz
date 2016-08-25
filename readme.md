@@ -1,7 +1,9 @@
 ## To Oz?  To Oz!
 
-Follow the steps below. Copy and paste your terminal commands into a github issue
-on this repository, like this one: https://github.com/ga-dc/to_oz/issues/1
+Follow the steps below. 
+
+Copy and paste your terminal commands into the solution.txt file provided
+in this repository.
 
 [Queue the music](http://thewizardofoz.warnerbros.com/)
 
