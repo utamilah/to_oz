@@ -1,6 +1,6 @@
 ## To Oz?  To Oz!
 
-Follow the steps below. 
+Follow the steps below.
 
 Copy and paste your terminal commands into the solution.txt file provided
 in this repository.
@@ -41,11 +41,10 @@ in this repository.
     1. Give Tin Man a heart shaped watch
     1. Give Lion a medal
 
-*: to give gifts, you can redirect the ouput of the `echo` command:
+*: to give gifts, echo the giftname into the appropriate file.
 
-```
-$ echo "a diploma" >> Oz/Scarecrow
-```
+> Hint: Thing to google "how to redirect output of echo to a file"
+
 ---
 
 ![](http://wendyswizardofoz.com/5ozpeop1.jpg)
