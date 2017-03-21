@@ -1,0 +1,20 @@
+mkdir House
+cd House
+touch Dorothy Toto
+cd ../
+mkdir Oz
+cd Oz 
+touch "Good Witch of the North” "Wicked Witch of the East" "Good Witch of the South" "Wicked Witch of the West"
+
+rm "Wicked Witch of the East"
+mv ../House/Dorothy .
+
+touch “Scarecrow.txt” "Tin Man.txt" "Cowardly Lion.txt"
+mkdir "Emerald City"
+mv “Dorothy” ”Scarecrow.txt" "Tin Man.txt" "Cowardly Lion.txt" "Emerald City"
+
+touch "Flying Monkeys.txt"
+rm "Wicked Witch of the West"
+echo "Diploma" > Scarecrow.txt
+echo "Heart Shaped Watch" > "Tin Man.txt"
+echo "Medal" > Lion.txt
