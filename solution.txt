@@ -17,4 +17,4 @@ touch "Flying Monkeys.txt"
 rm "Wicked Witch of the West"
 echo "Diploma" > Scarecrow.txt
 echo "Heart Shaped Watch" > "Tin Man.txt"
-echo "Medal" > Lion.txt
+echo "Medal" > Lion.txt 
